@@ -17,3 +17,25 @@ DEV:
 <img src="https://cdn.iconscout.com/icon/free/png-256/bitcoin-384-920569.png" srcset="https://cdn.iconscout.com/icon/free/png-512/bitcoin-384-920569.png 2x" alt="Bitcoin Icon" width="100">
 
 3KawK8aQe48478s6fxJ8Ms6VTWkwjgr9f2
+
+# AndroidAPS 4.0.0 — Apex TruCare III Pump Driver
+
+⚠️ **DISCLAIMER / ПРЕДУПРЕЖДЕНИЕ О БЕЗОПАСНОСТИ**
+This is an experimental open-source build intended for personal testing and educational purposes only. AndroidAPS is not a certified medical device. Use this code at your own risk. Always verify insulin delivery directly on your pump.
+Это экспериментальная сборка с открытым исходным кодом, предназначенная исключительно для личного тестирования. Программа не является сертифицированным медицинским изделием. Используйте на свой страх и риск и всегда сверяйте подачу инсулина по экрану самой помпы.
+
+---
+
+### Credits & Acknowledgments / Об авторах
+
+* **Original Driver & Bluetooth Protocol Reverse Engineering:** Roman Richter ([tdrkDev](https://github.com)) — based on his initial WIP implementation (PR `#3896`). Almost the entire core logic and communication protocol of the driver belong to him.
+* **Porting & Adaptation to AndroidAPS 4.0.0:** [Ваше Имя и Фамилия / Ваш ник на GitHub] — updated dependencies, resolved compatibility issues, and adapted the driver to build and run on the AndroidAPS 4.0.0 codebase.
+
+* **Оригинальный драйвер и реверс-инжиниринг протокола:** Роман Рихтер ([tdrkDev](https://github.com)) — за основу взята его первоначальная реализация (PR `#3896`). Почти вся базовая логика драйвера и протокол обмена данными принадлежат ему.
+* **Адаптация и перенос на AndroidAPS 4.0.0:** [Ваше Имя и Фамилия / Ваш ник на GitHub] — обновление зависимостей, устранение ошибок совместимости и доработка кода для стабильной сборки и работы на ядре AAPS 4.0.0.
+
+---
+
+### Status / Текущий статус
+* Successfully builds in Android Studio without manual folder setup.
+* Actively tested in a real closed-loop setup (`OpenAPSSMB` on AAPS 4.0.0): Bluetooth connection, battery/reservoir telemetry, bolus history sync, and temporary basal rates (TBR) work reliably.

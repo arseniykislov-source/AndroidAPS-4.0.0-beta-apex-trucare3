@@ -117,6 +117,10 @@ enum class NotificationId(
     EQUIL_ALARM(URGENT, PUMP),
     EQUIL_ALARM_INSULIN(URGENT, PUMP),
 
+    // Pump — Apex
+    APEX_SERVICE_MSG(URGENT, PUMP, allowMultiple = true),
+    PUMP_IS_LOCKED(URGENT, PUMP),
+
     // Pump — Dana
     DANA_PUMP_ALARM(URGENT, PUMP),
 
