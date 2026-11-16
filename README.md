@@ -29,10 +29,10 @@ This is an experimental open-source build intended for personal testing and educ
 ### Credits & Acknowledgments / Об авторах
 
 * **Original Driver & Bluetooth Protocol Reverse Engineering:** Roman Richter ([tdrkDev](https://github.com)) — based on his initial WIP implementation (PR `#3896`). Almost the entire core logic and communication protocol of the driver belong to him.
-* **Porting & Adaptation to AndroidAPS 4.0.0:** [Ваше Имя и Фамилия / Ваш ник на GitHub] — updated dependencies, resolved compatibility issues, and adapted the driver to build and run on the AndroidAPS 4.0.0 codebase.
+* **Porting & Adaptation to AndroidAPS 4.0.0:** [Seny Kislov / Seny GitHub] — updated dependencies, resolved compatibility issues, and adapted the driver to build and run on the AndroidAPS 4.0.0 codebase.
 
 * **Оригинальный драйвер и реверс-инжиниринг протокола:** Роман Рихтер ([tdrkDev](https://github.com)) — за основу взята его первоначальная реализация (PR `#3896`). Почти вся базовая логика драйвера и протокол обмена данными принадлежат ему.
-* **Адаптация и перенос на AndroidAPS 4.0.0:** [Ваше Имя и Фамилия / Ваш ник на GitHub] — обновление зависимостей, устранение ошибок совместимости и доработка кода для стабильной сборки и работы на ядре AAPS 4.0.0.
+* **Адаптация и перенос на AndroidAPS 4.0.0:** [Seny Kislov / Seny GitHub] — обновление зависимостей, устранение ошибок совместимости и доработка кода для стабильной сборки и работы на ядре AAPS 4.0.0.
 
 ---
 
